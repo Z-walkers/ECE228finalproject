@@ -1,0 +1,9 @@
+# ST-PINN (PyTorch reproduction) dependencies
+# GPU build of PyTorch for Linux. Pick the index that matches your CUDA driver:
+#   CUDA 12.4 -> cu124   |   CUDA 12.1 -> cu121   |   CUDA 11.8 -> cu118
+# Check your driver with `nvidia-smi` (top-right "CUDA Version" is the max supported).
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+torch>=2.2
+numpy>=1.24,<2.3
+matplotlib>=3.7
